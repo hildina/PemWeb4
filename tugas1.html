@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+    //elemen jquery untuk menampilkan dan menyembunyikan gambar
+	    $(document).ready(function(){
+	    $(".sembunyi").click(function() {$("#foto").hide("slow")});
+	    $(".tampil").click(function() {$("#foto").show("slow")});
+	    $(".sembunyi1").click(function() {$("#foto1").hide("slow")});
+	    $(".tampil1").click(function() {$("#foto1").show("slow")});
+	    });
+        //memunculkan parameter untuk kecepatan reaksi button sembunyi dan tampil
+    </script>
+</head>
+    <body>
+	    <button class="sembunyi"> Sembunyikan </button>
+	    <button class="tampil"> Tampilkan </button>
+	    <p><img id="foto" src="bebek1.jpg"></p>
+	    <button class="sembunyi1"> Sembunyikan </button>
+	    <button class="tampil1"> Tampilkan </button>
+	    <p><img id="foto1" src="bebek2.jpg"></p>
+        <!-- menampilkan button pada halaman web -->
+    </body>
+</html>
